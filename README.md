@@ -6,4 +6,4 @@ Completed user stories:
 
 User can enter a bill amount, chose tip percentage and see the tip and total values.
 
-https://drive.google.com/open?id=0B2iAETNBTqozTHhCdm9NSFpkTmM
+![tip calculator](https://cloud.githubusercontent.com/assets/13508908/9155549/b1b25a90-3ee5-11e5-91be-265cd04d83b7.gif)
