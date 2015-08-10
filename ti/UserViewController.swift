@@ -21,8 +21,25 @@ class UserViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    @IBOutlet weak var backbtn: UIButton!
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        println("view will appear")
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        println("view did appear")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        println("view will disappear")
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        println("view did disappear")
+    }
     
     /*
     // MARK: - Navigation
